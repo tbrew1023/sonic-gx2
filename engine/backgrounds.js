@@ -34,7 +34,7 @@ function back1(c){
 		}
 	}
 	bkgAnim++;
-	var bkg = 0;
+	var bkg = 0;o
 	if(bkgAnim > 60){
 		bkgAnim = 0;
 	}

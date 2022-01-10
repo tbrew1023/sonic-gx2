@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Sonic EXP</title>
-	<meta charset="UTF-8"/>
-	<style>
-	#myCanvas{
+  <head>
+    <title>Sonic Voyage</title>
+    <meta charset="UTF-8" />
+    <style>
+      #myCanvas {
         -ms-interpolation-mode: nearest-neighbor;
         image-rendering: pixelated;
-    }
+      }
 
-	@keyframes spinloop{
-		0% {transform: translate(-50%,-50%) rotateY(0deg)}
-		100% {transform: translate(-50%,-50%) rotateY(360deg)}
-	}
-	</style>
-</head>
-<body>
-	<canvas id="myCanvas"></canvas>
-	<script src="engine/config.js"></script>
-	<script src="engine/util.js"></script>
-	<script src="engine/debugger.js"></script>
-	<script src="engine/items.js"></script>
-	<script src="engine/tileSystem.js"></script>
-	<script src="engine/physicsEngine.js"></script>
-	<script src="engine/backgrounds.js"></script>
-	<script src="engine/level.js"></script>
-	<script src="engine/titleCard.js"></script>
-	<script src="engine/titleScreen.js"></script>
-	<script src="engine/index.js"></script>
-</body>
+      @keyframes spinloop {
+        0% {
+          transform: translate(-50%, -50%) rotateY(0deg);
+        }
+        100% {
+          transform: translate(-50%, -50%) rotateY(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas"></canvas>
+    <script src="engine/config.js"></script>
+    <script src="engine/util.js"></script>
+    <script src="engine/debugger.js"></script>
+    <script src="engine/items.js"></script>
+    <script src="engine/tileSystem.js"></script>
+    <script src="engine/physicsEngine.js"></script>
+    <script src="engine/backgrounds.js"></script>
+    <script src="engine/level.js"></script>
+    <script src="engine/titleCard.js"></script>
+    <script src="engine/titleScreen.js"></script>
+    <script src="engine/index.js"></script>
+  </body>
 </html>
